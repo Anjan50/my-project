@@ -9,14 +9,19 @@ const UrlShortnerBox = () => {
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">URL SHORTENER TOOL</h1>
                     </div>
                     <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/580X400" width={580} height={400} />
-                    <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-                        <div className="flex w-full justify-center items-end">
-                            <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
-                                <label htmlFor="hero-field" className="leading-7 text-sm text-gray-600">Enter URL</label>
-                                <input type="text" id="hero-field" name="hero-field" className="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-blue-200 focus:bg-transparent border border-gray-300 focus:border-blue-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Shorten URL</button>
+                    <div className="w-full md:w-3/4 flex flex-col mb-16 items-center text-center">
+
+                        <div className="w-full max-w-sm mx-auto mt-6 bg-transparent border rounded-md focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300">
+                            <form className="flex flex-col md:flex-row">
+                                <input type="email" placeholder="Enter URL" className="flex-1 h-10 px-4 py-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none " />
+
+                                <button type="button" className="h-10 px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
+                                    Shorten
+                                </button>
+                            </form>
                         </div>
+
+
                         <p className="text-sm mt-2 text-gray-500 mb-8 w-full">By clicking Shorten URL, you are agreeing</p>
                         <div className="flex">
                             <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">

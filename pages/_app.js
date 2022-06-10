@@ -13,9 +13,9 @@ function MyApp({ Component, pageProps }) {
 
     <Script
       id="Adsense-id"
-      async="true"
+      async={true}
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9292423173741305"
-      crossorigin="anonymous"
+      crossOrigin="anonymous"
       strategy="beforeInteractive"
     />
     <Footer />
