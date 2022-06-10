@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Ads1 from '../components/Ads1'
+import Ads2 from '../components/Ads2'
+import Ads3 from '../components/Ads3'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Que from '../components/Que'
+import Test from '../components/Test'
 import UrlShortnerBox from '../components/UrlShortnerBox'
 
 export default function Home() {
@@ -16,7 +19,9 @@ export default function Home() {
       </Head>
 
       <Ads1 />
+
       <UrlShortnerBox />
+      <Test />
       <Que />
 
     </div>
