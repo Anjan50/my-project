@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Ads1 from '../components/ads1'
+import Ads1 from '../components/Ads1'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Que from '../components/Que'
