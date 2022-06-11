@@ -3,12 +3,12 @@ import React from 'react'
 const UrlShortnerBox = () => {
     return (
         <section className="text-gray-600 body-font">
-            <div className="container w-1/2 mx-auto flex flex-col  py-5 justify-center items-center">
-                <div className="flex rounded-lg h-full bg-white p-8 flex-col justify-center items-center">
-                    <div className="w-full md:w-4/5 flex flex-col mb-16 items-center text-center">
+            <div className="container w-5/6 mx-auto flex flex-col  py-5 justify-center items-center">
+                <div className=" w-full flex rounded-lg h-full bg-white p-2 flex-col justify-center items-center">
+                    <div className="w-full md:w-4/5 flex flex-col mb-16 mt-4 items-center text-center">
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">URL SHORTENER TOOL</h1>
                     </div>
-                    <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/580X400" width={580} height={400} />
+                    <img className="lg:w-2/6 md:w-3/4 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/580X400" width={580} height={400} />
                     <div className="w-full md:w-3/4 flex flex-col mb-16 items-center text-center">
 
                         <div className="w-full max-w-sm mx-auto mt-6 bg-transparent border rounded-md focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300">

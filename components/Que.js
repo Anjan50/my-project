@@ -3,7 +3,7 @@ import React from "react";
 const Que = () => {
     return (
         <div>
-            <div className="max-w-2xl px-8 py-4 mx-auto bg-white rounded-lg shadow-md">
+            <div className="w-5/6 px-8 py-4 mx-auto bg-white rounded-lg shadow-md">
                 <div className="flex items-center justify-between">
                     <a className="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">
                         FAQs
