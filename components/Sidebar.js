@@ -1,5 +1,6 @@
 import React from 'react'
 import Script from 'next/script'
+import { GoogleAd } from './GoogleAd'
 
 const Sidebar = () => {
     return (
@@ -13,20 +14,6 @@ const Sidebar = () => {
                     <p> CSS </p>
                 </div>
             </aside>
-
-
-            {/* <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9292423173741305"
-                crossorigin="anonymous"></Script>
-
-            <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-9292423173741305"
-                data-ad-slot="4300630441"
-                data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
-            <Script>
-                (adsbygoogle = window.adsbygoogle || []).push({ });
-            </Script> */}
 
 
 
@@ -62,6 +49,7 @@ const Sidebar = () => {
                 </div>
 
             </card>
+            <GoogleAd />
         </div>
     )
 }

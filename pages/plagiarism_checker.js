@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoogleAd } from '../components/GoogleAd'
 
 const Plagiarism_checker = () => {
     return (
@@ -12,6 +13,7 @@ const Plagiarism_checker = () => {
                     </button>
                 </form>
             </div>
+            <GoogleAd />
         </div>
     )
 }
