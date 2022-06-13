@@ -5,8 +5,8 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
-                <Script dangerouslySetInnerHTML={{
+                <Script id="my-script1" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+                <Script id="my-script2" dangerouslySetInnerHTML={{
                     __html: `
         (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-9292423173741305",
